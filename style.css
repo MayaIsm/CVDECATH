@@ -1,0 +1,133 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    padding-bottom: 500px;
+    font-family: 'Montserrat', sans-serif;
+}
+.avatar{
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    display: block;
+    top: -100px;
+    width: 200px;
+    height :200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5)
+    
+}
+.cover{
+    width: 100%;
+    height: 300px;
+    background-image: url(res/cover.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 2px grey;
+}
+.socialmedia{
+    width: fit-content;
+    height: 50px;
+    margin: -80px auto;
+}
+.socialmedia i {
+    margin: 0 5px;
+    color:tomato;
+}
+.socialmedia i:hover{
+    color: grey;
+    cursor: pointer;
+}
+.Name{
+    position: relative;
+    width: fit-content;
+    top: 80px;
+    margin: auto;
+}
+.myname{
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+}
+.myname:hover{
+    text-decoration: underline;
+    color: #222;
+}
+.undername{
+    font-size: 1.3em;
+    color: #666;
+    text-align: center;
+}
+.paragraphs{
+    position: relative;
+    top: 150px;
+    width: 90%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.studies{
+    width: 45%;
+    height: 200 px;
+  
+}
+.experience{
+    width: 45%;
+    height: 200px;
+    
+}
+.tittle{
+    font-size: 3em;
+    color: tomato;
+    text-align: center;
+}
+.text{
+    font-size: 1.5em;
+}
+.interests{
+    position: relative;
+    top: 200px;
+    width: 100%;
+    height: 300px;
+}
+.hobbies{
+    position: relative;
+    width: 15%;
+    height: 120px;
+    float: left;
+    margin-top: 50px ;
+    margin-left: 1%;
+}
+ .hobbies p {
+    position: absolute;
+    bottom: 0;
+    font-size: 1em;
+    color: tomato ;
+    float: left;
+    opacity: 0;
+}
+.interests i {
+    margin-left: 20px;
+}
+.interests i:hover {
+    color: tomato ;
+    transform: rotate(360deg);
+    transition: all .5s;
+}
+.projects div {
+    position: relative;
+    top: 50px;
+    margin: 10px;
+    width: 31%;
+    height: 250px;
+    float: left;
+    box-shadow: 2px 2px 2px black;
+}
+.projects div img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  width: 100%;
+  height: 100%;
+}
